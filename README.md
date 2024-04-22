@@ -22,52 +22,15 @@ In this interpolation, the robot controller computes the straight-line path betw
 #### Circular interpolation: 
 This requires the programmer to define a circle in the
 robot’s workspace. This is done by specifying three points that lie along the circle. The controller constructs the circle by selecting a series of points that lie closer to the circle. These movements are actually small straight lines. If the addressable points are dense then the linear approximation becomes very much like circle.
-
-
 #### Manual lead through Programming: 
 When the manipulator wrist is moved by the programmer to teach, the movements consist of combination of smooth motion segments. These segments are sometimes approximately straight lines or curves or back and forth motions. These movements are referred as irregular smooth motions and an interpolation is involved to achieve them.
-
-
-
-
 ![Robot-interpolation-PTP-LIN-CIRC](https://user-images.githubusercontent.com/36288975/201615171-d0886aaa-8220-4b0c-8a1d-3d8a5c69c76a.png)
-
 ### Figure -01 difference between P-P , joint and linear interpolation 
-
-
 ### Program : 
 DART studio screen shots for linear interpolation 
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Sharonsteffani2005/Experiment--07-Linear-and-joint-interpolation-of-industrial-manipulator-/assets/144979934/bd22e66b-2592-4050-992f-2f9ed2bd9db2)
 DART studio screen shots for joint interpolation 
-
-
-
-
-
-
-
-
 ### Robot movements 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/Sharonsteffani2005/Experiment--07-Linear-and-joint-interpolation-of-industrial-manipulator-/assets/144979934/c329f6b1-15aa-47ff-8b78-622f4c8c80c0)
 ### Results:  
+Thus ,linear and joint interpolation of industrial manipulator and program is executed.
